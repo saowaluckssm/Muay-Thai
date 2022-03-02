@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  color: #000;
+  background-color: #fff;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add the ability to scroll */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  background-color: #100c08;
+  color: #fff;
+}
+
+.main-nav ul {
+  padding: 10px;
+  width: 100%;
+  list-style: none;
+}
+
+.main-nav ul li {
+  padding: 10px;
+}
+
+.main-nav ul li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.showcase {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-about {
+  margin: 150px 0;
+}
