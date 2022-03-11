@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100;300;400;500&display=swap');
 
 body {
-  font-family: 'Roboto Mono', sans-serif;
+  /* font-family: 'Roboto Mono', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   /* padding-top: 50px; */
   color: #fff;
   background-color: #100c08;
@@ -16,6 +17,7 @@ body::-webkit-scrollbar {
 }
 
 h1,
+h2,
 h5 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -28,6 +30,10 @@ p {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #2e6cb0;
 }
 
 .social-media {
@@ -82,9 +88,9 @@ a {
 }
 
 .main-nav ul li a {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
-  color: #fff;
+  color: #2e6cb0;
 }
 
 .showcase {
@@ -93,10 +99,16 @@ a {
   overflow: hidden;
 }
 
-.showcase img {
+.showcase img,
+.showcase-secondary img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.showcase-secondary {
+  width: 100vw;
+  height: 50vh;
 }
 
 .main-about {
@@ -113,6 +125,14 @@ a {
 
 .main-news {
   color: #000;
+}
+
+.new-title {
+  color: #2e6cb0;
+  padding: 10px;
+  margin: 20px 20px 50px;
+  text-align: center;
+  font-size: 45px;
 }
 
 .main-news h5 {
