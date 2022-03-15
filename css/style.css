@@ -112,7 +112,16 @@ a {
 }
 
 .main-about {
-  margin: 150px 0;
+  margin: 100px 0 -150px;
+}
+
+.main-about .card {
+  background-color: transparent;
+  z-index: 7;
+}
+
+.main-about .main-about-content {
+  padding: 150px 10px 0 30px;
 }
 
 .main-about h5 {
@@ -124,10 +133,18 @@ a {
 }
 
 .main-news {
-  color: #000;
+  background-color: #fff;
+  padding: 20px 0 50px;
 }
 
-.new-title {
+.main-news .card-body {
+  background-color: #fff;
+  color: #100c08;
+}
+
+.new-title,
+.gallery-title,
+.primary-title {
   color: #2e6cb0;
   padding: 10px;
   margin: 20px 20px 50px;
@@ -141,9 +158,44 @@ a {
   letter-spacing: 3px;
 }
 
-footer {
-  margin: 100px auto 20px;
-  padding: 20px;
+.about .about-container {
+  margin: 50px auto;
+  padding: 50px 5px;
+}
+
+.about .gallery-container .col {
+  overflow: hidden;
+  padding: 12px;
+}
+
+.about .gallery-container .col img {
+  width: 100%;
+  height: 100%;
+}
+
+.classes {
+  padding: 50px 0 120px;
+}
+
+.classes .classes-header {
+  padding: 50px 10px;
+  margin-bottom: 50px;
+}
+
+.classes h5 {
+  font-size: 23px;
+  color: #2e6cb0;
+  letter-spacing: 3px;
+  margin: 10px 0 20px;
+}
+
+.classes .card-text {
+  /* font-size: 16px; */
+}
+
+.footer {
+  margin: 20px auto 20px;
+  padding: 10px;
   text-transform: uppercase;
 }
 
