@@ -158,6 +158,14 @@ a {
   letter-spacing: 3px;
 }
 
+/* .about {
+  background-image: url('/img/transparent.png');
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: left top;
+  background-attachment: fixed;
+} */
+
 .about .about-container {
   margin: 50px auto;
   padding: 50px 5px;
@@ -189,8 +197,41 @@ a {
   margin: 10px 0 20px;
 }
 
-.classes .card-text {
-  /* font-size: 16px; */
+.schedule {
+  margin: 150px 0;
+}
+
+.schedule .box-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule .box-schedule h3 {
+  margin-bottom: 18px;
+}
+
+.contact-section {
+  margin: 100px 10px;
+}
+
+.contact-container {
+  padding: 50px 100px;
+}
+
+.contact-container .card-img {
+  height: 300px;
+  margin: 15px auto 20px;
+}
+
+.contact-container .content {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-container .card-img img {
+  max-height: 300px;
 }
 
 .footer {
